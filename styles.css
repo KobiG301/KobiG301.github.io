@@ -21,7 +21,7 @@ h1{
     /* pull the h3 text away from the left blob wall */
     margin-left: 50px;
 }
-.img {
+.project img{
     width: 200px;
     height: 150px;
     margin: 10px auto;
