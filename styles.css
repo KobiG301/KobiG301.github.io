@@ -1,9 +1,9 @@
 body {
-    background: blueviolet;
+    background: bisque;
     font-family: arial;
 }
 h1{
-    color: blanchedalmond;
+    color: aqua;
     text-align: center;
 }
 .projects {   
@@ -16,4 +16,17 @@ h1{
     padding: 20px 10px;
     background: white;  /* pick a color */
     border-radius: 25%;
+}
+.project h3 {
+    /* pull the h3 text away from the left blob wall */
+    margin-left: 50px;
+}
+.img {
+    width: 400px;
+    height: 300px;
+    margin: 10px auto;
+    border: 2px solid navy;
+    display: block;
+    /* center the images inside the blobs */
+    text-align: center;    
 }
