@@ -3,25 +3,25 @@ body {
     font-family: arial;
 }
 h1{
-    color: aqua;
+    color:black;
     text-align: center;
 }
-.project {   
+.projects {   
 	display:flex; 
 	flex-wrap:wrap;  
 }
-.project {
+.projects {
     width: 30%;
     margin: 10px;
     padding: 20px 10px;
     background: white;  /* pick a color */
     border-radius: 25%;
 }
-.project h3 {
+.projects h3 {
     /* pull the h3 text away from the left blob wall */
     margin-left: 50px;
 }
-.project img{
+.projects img{
     width: 400px;
     height: 300px;
     margin: 10px auto;
